@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW-Supercar Wallpaper Hub</title>
+    <link rel="stylesheet" href="C:\Users\acer\BMW folder\style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="header" id="header">
+        <nav>
+            <a href="https://ykraj.my.canva.site/">
+             <img src="y (1).png" class="logo" width="100" height="70" alt="Logo">
+           </a>
+            <ul>
+                <li><a href="#" id="modela">Model A</a></li>
+                <li><a href="#" id="modelb">Model B</a></li>
+                <li><a href="#" id="modelc">Model C</a></li>
+                <li><a href="#" id="modeld">Model D</a></li>
+                <li><a href="#" id="modele">Model E</a></li>
+            </ul>
+            <a href="https://ykraj.my.canva.site/" class="btn">Contact Now</a>
+        </nav>
+
+        <div class="info">
+            <div>
+                <h2 id="acceleration">3.7 s</h2>
+                <p>100 mph</p>
+            </div>
+            <div>
+                <h2 id="topSpeed">187 mph(301 km/h)</h2>
+                <p>Top Speed</p>
+            </div>
+            <div>
+                <h2 id="range">483 mi(777 km)</h2>
+                <p>Max Range</p>
+            </div>
+            <div class="line">
+            </div>
+            <div>
+                <h2 id="model">Alpina B4</h2>
+            </div>
+        </div>
+
+    </div>
+
+<script>
+
+var header = document.getElementById("header");
+var ma = document.getElementById("modela");
+var mb = document.getElementById("modelb");
+var mc = document.getElementById("modelc");
+var md = document.getElementById("modeld");
+var me = document.getElementById("modele");
+var model = document.getElementById("model");
+
+var acceleration = document.getElementById("acceleration");  
+var topSpeed = document.getElementById("topSpeed");  
+var range = document.getElementById("range");  
+
+ma.onclick = function() {
+    header.style.backgroundImage = "url('Alpina B4 Gran Coupe.jpg')";
+    model.innerHTML = "Alpina B4";
+    acceleration.innerHTML = "3.7 s";
+    topSpeed.innerHTML = "187 mph(301 km/h)";  
+    range.innerHTML = "483 mi(777 km)";
+}
+mb.onclick = function() {
+    header.style.backgroundImage = "url('BMW 430i Cabrio M Sport 2024.jpg')";
+    model.innerHTML = "430i Cabrio M sports";
+    acceleration.innerHTML = "6.2 s";
+    topSpeed.innerHTML = "155 mph(250 km/h)";  
+    range.innerHTML = "611 mi(983km) ";
+}
+mc.onclick = function() {
+    header.style.backgroundImage = "url('Manhart MHX5 700.jpg')";
+    model.innerHTML = "Manhart MHX5 700";
+    acceleration.innerHTML = "3.0 s";
+    topSpeed.innerHTML = "190 mph(315 km/h)";  
+    range.innerHTML = "300 mi(483 km)";
+}
+md.onclick = function() {
+    header.style.backgroundImage = "url('G-power G3M CS Bi-Turbo 2024.jpg')";
+    model.innerHTML = "G-power G3M CS";
+    acceleration.innerHTML = "3.0 s";
+    topSpeed.innerHTML = "198 mph(320 km/h)";  
+    range.innerHTML = "300 mi(483 km)";  
+}
+me.onclick = function() {
+    header.style.backgroundImage = "url('BMW M5.jpg')";
+    model.innerHTML = "M5 Red";
+    acceleration.innerHTML = "3.5 s";
+    topSpeed.innerHTML = "198 mph(320 km/h)";  
+    range.innerHTML = "300 mi(483 km)";
+}
+
+</script>    
+    
+</body>
+</html>
